@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <style>
+        #titulo p {color :darkgray;
+            
+        }
+        
+    </style>
+    <font face="Arial">
+        <div id="titulo">
+            <center><h1 style="color:darkgray;">Ficha Cadastral</h1></center>
+        </div>
+        <div id="corpo">
+            <fieldset style="width:50px; margin-left:280px;">
+                <legend>Dados Pessoais:</legend>
+                <div id="nome1">
+                    <p>
+                        <label for="nome">
+                            Nome: <br />
+                            <input type="text" name="nome" id="nome" autofocus size="90 ">
+                        </label>
+                    </p>
+                </div>
+                <p>
+                    <label for="RG">
+                        RG: <br />
+                        <input type="text" name="nome" id="nome">
+                    </label>
+                </p>
+                <p>
+                    <label for="CPF">
+                        CPF: <br />
+                        <input type="text" name="nome" id="nome">
+                    </label>
+                </p>
+                <p>
+                    <label for="Endereço">
+                        Endereço: <br />
+                        <input type="text" name="nome" id="nome">
+                    </label>
+                </p>
+                <p>
+                    <label for="Data de nascimento">
+                        Data de nascimento: <br />
+                        <input type="text" name="date" id="date">
+                    </label>
+                </p>
+                <p>
+                    
+                    Gênero: <select>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino" selected>Feminino</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+
+                </p>
+                <p>
+                    Situação Civil:
+                    <table>
+                        <tr>
+                            <td>
+                                <label>
+                                    <input type="checkbox" name="sitcivil" value="solteiro" />
+                                    Solteiro(a)
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" name="sitcivil" value="casado" />
+                                    Casado(a)
+                                </label>
+                            </td>
+                            <td>
+                                <label>
+                                    <input type="checkbox" name="sitcivil" value="viuvo" />
+                                    Viúvo(a)
+                                </label>
+                            </td>
+                        </tr>
+                    </table>
+                </p>
+            </fieldset>
+    </div>
+</font>
+</body>
+</html>
